@@ -1,0 +1,2 @@
+# 2702Website
+A hypothetical successor to 2702rebels.com, possibly using PlayfulJS for particles. Kinda material, kinda ugly (for now), but scales like a boss.
