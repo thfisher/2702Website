@@ -53,7 +53,7 @@ body {
   width: 100%;
   height: 99px;
   margin-top: -3px;
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .historypanel {
@@ -113,7 +113,7 @@ body {
    clear: both;
    z-index: 11;
    width: 100%;
-   margin-top: 96px;
+   margin-top: 126px;
 }
 
 .meetingpanel .meetingtext {
@@ -241,14 +241,14 @@ body {
   font-size: 0.688dw;
   font-weight: 400;
   text-align: center;
-  color: #ffffff;
+  color: #000000;
 }
 
 .topbar {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 18;
+  z-index: 22;
   width: 100%;
   height: 28px;
 }
@@ -270,9 +270,9 @@ body {
 
 .topshroud {
   position: absolute;
-  top: 0;
+  top: 31px;
   left: 0;
-  z-index: 22;
+  z-index: 18;
   width: 100%;
   box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
 }
@@ -283,7 +283,8 @@ body {
   left: 0;
   right: 0;
   z-index: 20;
-  width: 340px;
+  width: 358px;
+  height: auto;
   margin: 0 auto;
   overflow: visible;
 }
