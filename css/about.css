@@ -118,7 +118,7 @@ p {
   float: left;
   clear: both;
   width: 80%;
-  min-height: 535px;
+  min-height: auto;
   margin-left: 10%;
   font-size: 1em;
   color: rgb(0, 0, 0);
