@@ -418,7 +418,7 @@ table {
 
 
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h1, h2, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, font, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -437,6 +437,11 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 /* remember to define focus styles! */
 :focus {
   outline: 0;
+}
+h3 {
+   font-weight: 500;
+    FONT-SIZE: 20px;
+    padding-left: 5px;
 }
 body {
   line-height: 1;
