@@ -53,7 +53,7 @@ body {
   width: 100%;
   height: 99px;
   margin-top: -3px;
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .historypanel {
@@ -73,14 +73,16 @@ body {
   overflow: hidden;
 }
 
-.historypanel .meetingtext {
+.historypanel {
   z-index: 10;
-  font-size: 1.375em;
+  font-size: 6vw;
 }
 
 .historypanel .recuit {
   z-index: 9;
-  width: 45.4099999999%;
+  width: 34.41%;
+  top: 33vw;
+  left: 31%;
 }
 
 .home {
@@ -106,22 +108,24 @@ body {
 }
 
 .meetingpanel {
-  position: relative;
-  float: left;
-  z-index: 3;
-  width: 100%;
-  height: 271px;
-  margin-top: 97px;
+   position: relative;
+   float: left;
+   clear: both;
+   z-index: 11;
+   width: 100%;
+   margin-top: 126px;
 }
 
 .meetingpanel .meetingtext {
   z-index: 2;
-  font-size: 1.75em;
+  font-size: 8vw;
 }
 
 .meetingpanel .recuit {
   z-index: 1;
-  width: 67%;
+  width: 48%;
+  top: 30vw;
+  left: 23%
 }
 
 .meetings {
@@ -152,7 +156,7 @@ body {
   margin: 0 auto;
   text-align: center;
   color: rgb(255, 255, 255);
-  text-shadow: 2px 4px 11px #1f1f1f;
+  text-shadow: 3px 4px 10px #000000;
 }
 
 .promo1 {
@@ -170,28 +174,24 @@ body {
 .recuit {
   display: block;
   position: absolute;
-  top: 101px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
   padding-right: 6px;
   padding-left: 6px;
   border: 3px solid rgb(255, 255, 255);
   border-radius: 3px;
   background-color: rgba(0, 0, 0, 0.5);
-  font-size: 1.125em;
+  font-size: 4vw;
   font-weight: 400;
   text-align: center;
   color: rgb(255, 255, 255);
 }
 
 .sponsorpanel {
-  position: relative;
-  float: left;
-  clear: both;
-  z-index: 7;
-  width: 100%;
-  margin-top: -119px;
+   position: relative;
+   float: left;
+   clear: both;
+   z-index: 11;
+   width: 100%;
+   margin-top: 45%;
 }
 
 .sponsorpanel .image {
@@ -205,12 +205,14 @@ body {
 
 .sponsorpanel .meetingtext {
   z-index: 6;
-  font-size: 1.75em;
+  font-size: 8vw;
 }
 
 .sponsorpanel .recuit {
   z-index: 5;
-  width: 34.4099999999%;
+  width: 24.41%;
+  top: 41.5vw;
+  left: 35%
 }
 
 .sponsors {
@@ -240,14 +242,14 @@ body {
   font-size: 0.688dw;
   font-weight: 400;
   text-align: center;
-  color: #ffffff;
+  color: #000000;
 }
 
 .topbar {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 18;
+  z-index: 22;
   width: 100%;
   height: 28px;
 }
@@ -269,9 +271,9 @@ body {
 
 .topshroud {
   position: absolute;
-  top: 0;
+  top: 31px;
   left: 0;
-  z-index: 22;
+  z-index: 18;
   width: 100%;
   box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
 }
@@ -282,7 +284,8 @@ body {
   left: 0;
   right: 0;
   z-index: 20;
-  width: 340px;
+  width: 358px;
+  height: auto;
   margin: 0 auto;
   overflow: visible;
 }
