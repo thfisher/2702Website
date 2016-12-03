@@ -73,7 +73,7 @@ body {
   overflow: hidden;
 }
 
-.historypanel {
+.historypanel .meetingtext {
   z-index: 10;
   font-size: 6vw;
 }
@@ -156,7 +156,6 @@ body {
   margin: 0 auto;
   text-align: center;
   color: rgb(255, 255, 255);
-  text-shadow: 3px 4px 10px #000000;
 }
 
 .promo1 {
