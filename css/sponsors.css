@@ -1,11 +1,52 @@
 body {
+  min-width: none;
+  min-height: nonepx;
   background-color: rgb(255, 255, 255);
-  font: 300 0.813em/1.38 Ubuntu;
+  font: 400 1em/1.38 Ubuntu;
   color: rgb(0, 0, 0);
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
 }
 
-p {
-  margin-bottom: 1em;
+.abell {
+  display: block;
+  position: absolute;
+  top: 454px;
+  left: 9.7012867647%;
+  z-index: 6;
+  width: 76px;
+  min-width: none;
+  height: auto;
+  min-height: nonepx;
+  overflow: hidden;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
 }
 
 .about {
@@ -14,11 +55,30 @@ p {
   top: 1px;
   min-width: 1px;
   height: 26px;
+  min-height: nonepx;
+  border-style: none;
   border-radius: 2px;
   background-color: rgba(222, 222, 222, 0);
-  font-size: 1.231em;
+  font-style: normal;
+  font-size: 1em;
+  font-weight: 300;
   text-align: center;
   color: rgb(255, 255, 255);
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
 }
 
 .about:hover,
@@ -28,21 +88,243 @@ p {
   font-weight: 300;
 }
 
-.alumni {
+.artline {
   display: block;
+  position: absolute;
+  top: 760px;
+  left: 52.9411764705%;
+  z-index: 15;
+  width: 104px;
+  min-width: none;
+  height: auto;
+  min-height: nonepx;
+  overflow: hidden;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
+}
+
+.bez {
+  display: block;
+  position: absolute;
+  top: 757px;
+  left: 15%;
+  z-index: 14;
+  width: 110px;
+  min-width: none;
+  height: auto;
+  min-height: nonepx;
+  overflow: hidden;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
+}
+
+.bronze {
+  position: absolute;
+  top: 640px;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  width: 66.4705882352%;
+  min-width: none;
+  min-height: 32px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 1em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
+}
+
+.buttonbar {
   position: relative;
   float: left;
-  z-index: 7;
+  z-index: 20;
+  width: 44.0992647058%;
+  min-width: none;
   height: 18px;
-  margin: 36px 0 0 1.45221%;
+  min-height: nonepx;
+  margin: 41px 0 0 9.99835%;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
+}
+
+.buttonbar .sponsorus {
+  display: block;
+  height: 18px;
+  min-height: nonepx;
+  margin-left: 3.28107%;
   padding-right: 2px;
   padding-left: 2px;
   border-radius: 2px;
   background-color: rgb(222, 222, 222);
-  font-size: 0.923em;
-  font-weight: 400;
+  font-size: 0.75em;
+  text-align: center;
+}
+
+.clearpath {
+  display: block;
+  position: absolute;
+  top: 919px;
+  left: 23.5294117647%;
+  z-index: 17;
+  width: 179px;
+  min-width: none;
+  height: auto;
+  min-height: nonepx;
+  overflow: hidden;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
+}
+
+.felton {
+  display: block;
+  position: absolute;
+  top: 669px;
+  left: 67.0588235294%;
+  z-index: 13;
+  width: 77px;
+  min-width: none;
+  height: auto;
+  min-height: nonepx;
+  overflow: hidden;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
+}
+
+.gm {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -0.0109649123%;
+  z-index: 1;
+  width: 87px;
+  min-width: none;
+  height: auto;
+  min-height: nonepx;
+  overflow: hidden;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
+}
+
+.gold {
+  position: absolute;
+  top: 200px;
+  left: 34px;
+  z-index: 4;
+  width: 14.1176470588%;
+  min-width: none;
+  min-height: 32px;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 1em;
   text-align: center;
   color: rgb(0, 0, 0);
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
 }
 
 .home {
@@ -50,16 +332,63 @@ p {
   position: absolute;
   top: 1px;
   left: 1px;
-  z-index: 12;
+  z-index: 28;
   width: 54px;
   min-width: 1px;
   max-width: 54px;
   height: 26px;
+  min-height: nonepx;
+  border-style: none;
   border-radius: 2px;
   background-color: rgba(222, 222, 222, 0);
-  font-size: 1.231em;
+  font-style: normal;
+  font-size: 1em;
+  font-weight: 300;
   text-align: center;
   color: rgb(255, 255, 255);
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
+}
+
+.kitchenerrangers {
+  display: block;
+  position: absolute;
+  top: 669px;
+  left: 9.4117647058%;
+  z-index: 11;
+  width: 86px;
+  min-width: none;
+  height: auto;
+  min-height: nonepx;
+  overflow: hidden;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
 }
 
 .meetings {
@@ -67,33 +396,296 @@ p {
   position: absolute;
   top: 1px;
   left: 55px;
-  z-index: 11;
+  z-index: 27;
   width: 77px;
   min-width: 1px;
   max-width: 77px;
   height: 26px;
+  min-height: nonepx;
+  border-style: none;
   border-radius: 2px;
   background-color: rgba(222, 222, 222, 0);
-  font-size: 1.231em;
+  font-style: normal;
+  font-size: 1em;
+  font-weight: 300;
   text-align: center;
   color: rgb(255, 255, 255);
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
 }
 
-.outreach {
+.metalsupermarkets {
   display: block;
+  position: absolute;
+  top: 847px;
+  left: 21.9990808823%;
+  z-index: 16;
+  width: 179px;
+  min-width: none;
+  height: auto;
+  min-height: nonepx;
+  overflow: hidden;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
+}
+
+.namesake {
+  position: absolute;
+  top: 65px;
+  left: 34px;
+  z-index: 3;
+  width: 22.9411764705%;
+  min-width: none;
+  min-height: 32px;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 1em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
+}
+
+.namesakerow {
   position: relative;
   float: left;
-  z-index: 5;
+  clear: both;
+  z-index: 2;
+  width: 284px;
+  min-width: none;
+  height: 87px;
+  min-height: nonepx;
+  margin: 44px 0 0 9.99835%;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
+}
+
+.oursponsors {
+  display: block;
+  float: left;
+  min-width: none;
   height: 18px;
-  margin: 36px 0 0 1.76471%;
+  min-height: nonepx;
+  margin-left: -0.29956%;
   padding-right: 2px;
   padding-left: 2px;
   border-radius: 2px;
   background-color: rgb(222, 222, 222);
-  font-size: 0.923em;
-  font-weight: 400;
+  font-size: 0.75em;
   text-align: center;
   color: rgb(0, 0, 0);
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
+}
+
+.rexrothbosch {
+  display: block;
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 8;
+  width: 132px;
+  min-width: none;
+  height: auto;
+  min-height: nonepx;
+  margin: -115px 0 0 30.58537%;
+  overflow: hidden;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
+}
+
+.rockwellautomation {
+  display: block;
+  position: absolute;
+  top: 26px;
+  left: 35.0822368421%;
+  z-index: 0;
+  width: 184px;
+  min-width: none;
+  height: auto;
+  min-height: nonepx;
+  overflow: hidden;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
+}
+
+.silver {
+  position: absolute;
+  top: 427px;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  width: 66.4705882352%;
+  min-width: none;
+  min-height: 32px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 1em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
+}
+
+.solidworks {
+  display: block;
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 9;
+  width: 203px;
+  min-width: none;
+  height: auto;
+  min-height: nonepx;
+  margin: 56px 0 0 20.1432499999%;
+  overflow: hidden;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
+}
+
+.spaenaur {
+  display: block;
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 7;
+  width: 147px;
+  min-width: none;
+  height: auto;
+  min-height: nonepx;
+  margin: 268px 0 0 39.21937%;
+  overflow: hidden;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
 }
 
 .sponsors {
@@ -101,36 +693,116 @@ p {
   position: absolute;
   top: 1px;
   left: 132px;
-  z-index: 10;
+  z-index: 26;
   width: 79px;
   min-width: 1px;
   max-width: 79px;
   height: 26px;
+  min-height: nonepx;
+  border-style: none;
   border-radius: 2px;
   background-color: rgba(222, 222, 222, 0);
-  font-size: 1.231em;
+  font-style: normal;
+  font-size: 1em;
+  font-weight: 300;
   text-align: center;
   color: rgb(255, 255, 255);
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
+}
+
+.sponsorus {
+  float: left;
+  min-width: none;
+  color: rgb(0, 0, 0);
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
 }
 
 .text {
   position: relative;
   float: left;
   clear: both;
-  width: 80%;
-  min-height: 535px;
-  margin-left: 10%;
+  z-index: 22;
+  width: 80.294117647%;
+  min-width: none;
+  min-height: 96px;
+  margin: -18px 0 0 9.99835%;
+  background-color: rgba(0, 0, 0, 0);
+  font-style: normal;
   font-size: 1em;
   color: rgb(0, 0, 0);
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
+}
+
+.text p {
+  margin-bottom: 1em;
 }
 
 .topbar {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 14;
+  z-index: 30;
   width: 100%;
+  min-width: none;
   height: 28px;
+  min-height: nonepx;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
 }
 
 .topbarbackground {
@@ -138,77 +810,99 @@ p {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 8;
+  z-index: 24;
   width: 100%;
+  min-width: none;
   height: 28px;
   min-height: 26px;
   max-height: 30px;
   margin: 0 auto;
   background-color: #982424;
   box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
 }
 
-.whoweare {
+.westmountsigns {
   display: block;
+  position: absolute;
+  top: 672px;
+  left: 38.5294117647%;
+  z-index: 12;
+  width: 78px;
+  min-width: none;
+  height: auto;
+  min-height: nonepx;
+  overflow: hidden;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
+}
+
+.wrapper {
   position: relative;
   float: left;
-  height: 18px;
-  margin-top: 36px;
-  padding-right: 2px;
-  padding-left: 2px;
-  border-radius: 2px;
-  background-color: rgb(222, 222, 222);
-  font-size: 0.923em;
-  font-weight: 400;
-  text-align: center;
-  color: rgb(0, 0, 0);
+  clear: both;
+  z-index: 23;
+  width: 79.9908088235%;
+  height: auto;
+  margin: 14px 0 0 9.99835%;
+  overflow: hidden;
+  filter: none;
 }
 
 .about-1 {
   left: 269px;
-  z-index: 13;
+  z-index: 29;
   width: 45px;
   max-width: 45px;
 }
 
 .about-2 {
   left: 211px;
-  z-index: 9;
+  z-index: 25;
   width: 58px;
   max-width: 58px;
 }
 
-.text-1 {
-  z-index: 0;
-  margin-top: 23px;
+.sponsorus-2 {
+  position: relative;
+  z-index: 21;
+  width: 79.9908088235%;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 1.875em;
+  text-align: center;
 }
 
-.text-2 {
-  z-index: 3;
-  margin-top: 22px;
-}
-
-.text-3 {
-  z-index: 4;
-  margin-top: 23px;
-}
-
-.text-4 {
-  z-index: 6;
-  margin-top: 22px;
-}
-
-.whoweare-1 {
-  z-index: 2;
-  margin-left: 16%;
-}
-
-.whoweare-2 {
-  z-index: 1;
-  margin-left: -12.52941%;
-}
-
-.text em {
+.sponsorus a,
+.sponsorus em,
+.sponsorus span,
+.sponsorus strong {
   border-top-width: 0;
   border-right-width: 0;
   border-bottom-width: 0;
@@ -221,9 +915,9 @@ p {
   border-bottom-left-radius: 0;
   background-color: transparent;
   font-family: inherit;
-  font-style: inherit;
-  font-size: 1.308em;
-  font-weight: 400;
+  font-style: normal;
+  font-size: inherit;
+  font-weight: 700;
   text-transform: inherit;
   text-decoration: inherit;
   letter-spacing: inherit;
@@ -235,7 +929,7 @@ p {
   white-space: normal;
 }
 
-.text span {
+.text strong {
   border-top-width: 0;
   border-right-width: 0;
   border-bottom-width: 0;
@@ -262,29 +956,89 @@ p {
   white-space: normal;
 }
 
-.text strong {
-  border-top-width: 0;
-  border-right-width: 0;
-  border-bottom-width: 0;
-  border-left-width: 0;
-  border-color: transparent;
-  border-style: none;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-  background-color: transparent;
-  font-family: inherit;
-  font-style: inherit;
-  font-size: 1.538em;
-  font-weight: inherit;
-  text-transform: inherit;
-  text-decoration: inherit;
-  letter-spacing: inherit;
-  word-spacing: inherit;
-  color: inherit;
-  opacity: 1;
-  word-break: normal;
-  word-wrap: normal;
-  white-space: normal;
+@media(max-width: 340px) {
+  .abell,
+  .artline,
+  .bez,
+  .clearpath,
+  .felton,
+  .kitchenerrangers,
+  .metalsupermarkets,
+  .namesakerow .gm,
+  .namesakerow .rockwellautomation,
+  .westmountsigns {
+    height: auto;
+  }
+
+  .buttonbar {
+    position: relative;
+    z-index: 20;
+    margin-left: 10%;
+  }
+
+  .buttonbar .oursponsors {
+    margin-left: -0.30221%;
+  }
+
+  .buttonbar .sponsorus {
+    margin-left: 3.28262%;
+  }
+
+  .namesakerow {
+    position: relative;
+    z-index: 2;
+    margin-left: 10%;
+  }
+
+  .rexrothbosch {
+    position: relative;
+    z-index: 8;
+    height: auto;
+    margin-left: 30.58824%;
+  }
+
+  .bronze,
+  .silver,
+  .topbar .topbarbackground {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .solidworks {
+    position: relative;
+    z-index: 9;
+    height: auto;
+    margin-left: 20.14706%;
+  }
+
+  .spaenaur {
+    position: relative;
+    z-index: 7;
+    height: auto;
+    margin-top: 269px;
+    margin-left: 39.22335%;
+  }
+
+  .sponsorus {
+    margin-left: 10%;
+  }
+
+  .text {
+    position: relative;
+    z-index: 22;
+    margin-left: 10%;
+  }
+
+  .wrapper {
+    position: relative;
+    z-index: 23;
+    margin-left: 10%;
+  }
+
+  .sponsorus-2 {
+    position: relative;
+    z-index: 21;
+  }
 }
