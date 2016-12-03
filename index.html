@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  
+
   <meta name="viewport" content="initial-scale=1.0">
   <title>2702 Rebels</title>
   <link href="./index_files/css" rel="stylesheet" type="text/css">
@@ -22,23 +22,37 @@
     <button onclick="window.location=&#39;about.html&#39;;" class="about"><span class="placeholder">About&nbsp;</span></button>
     <div class="topbarbackground"></div>
   </div>
-  <div class="meetingpanel">
-    <p class="meetingtext">Come to a Meeting</p>
-    <button onclick="window.location=&#39;meetings.html&#39;;" class="recuit">See What FIRST is About</button>
-    <img class="promo1" src="./index_files/Promo1-272x153.jpg" data-rimage="" data-src="images/Promo1-272x153.jpg">
-  </div>
-  <div class="sponsorpanel clearfix">
-    <p class="meetingtext">Help Us Thrive</p>
-    <img class="image" src="./index_files/IMG_20160401_080518-272x272.jpg" data-rimage="" data-src="images/IMG_20160401_080518-272x272.jpg">
-    <button onclick="window.location=&#39;sponsors.html&#39;;" class="recuit">Sponsor Us</button>
-  </div>
-  <div class="historypanel clearfix">
-    <img class="image" src="./index_files/p1-272x272.jpg" data-rimage="" data-src="images/p1-272x272.jpg">
-    <p class="meetingtext">Tomorrow, but Yesterday</p>
-    <button onclick="window.location=&#39;about.html&#39;;" class="recuit">Learn our history</button>
+  <body>
+</div>
+<div style="padding-top: 40px;">
+  <h2>Animated Accordion</h2>
+
+  <button class="accordion">Section 1</button>
+  <div class="panel">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
   </div>
 
-  <script src="./index_files/jquery-min.js.download"></script>
-  <script src="./index_files/rimages.js.download"></script>
+  <button class="accordion">Section 2</button>
+  <div class="panel">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
 
-</body></html>
+  <button class="accordion">Section 3</button>
+  <div id="foo" class="panel">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+</div>
+  <script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+
+  for (i = 0; i < acc.length; i++) {
+      acc[i].onclick = function(){
+          this.classList.toggle("active");
+          this.nextElementSibling.classList.toggle("show");
+    }
+  }
+  </script>
+
+  </body>
+  </html>
