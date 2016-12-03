@@ -869,11 +869,13 @@ body {
   float: left;
   clear: both;
   z-index: 23;
-  width: 79.9908088235%;
+  left: 10%;
+  width: 80%;
   height: auto;
-  margin: 14px 0 0 9.99835%;
-  overflow: hidden;
+  max-width: 80%;
+  overflow: auto;
   filter: none;
+  padding-bottom: 30px;
 }
 
 .about-1 {
