@@ -30,7 +30,7 @@ try
 	}
 
 	$bbcode = new BBCode;
-	$bbcode->SetAllowAmpersand( truei);
+	$bbcode->SetAllowAmpersand( true );
 //  enable to get debugging of BBCode parser
 //	$bbcode->SetDebug( true );
 
@@ -127,7 +127,6 @@ try
 				print $cleaned;
 
 				printf( "<br><br>\n" );
-				}
 			}
 			$nres->free();
 			printf( "<hr>\n" );
